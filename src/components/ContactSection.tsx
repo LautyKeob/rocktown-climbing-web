@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Button } from './ui/button';
 
 const ContactSection = () => {
   return (
@@ -17,9 +18,9 @@ const ContactSection = () => {
             <span className="font-semibold">Teléfono (WhatsApp):</span> +34 613 19 70 87
           </p>
         </div>
-        <button className="bg-rocktown-purple hover:bg-opacity-90 text-white text-xl font-bold py-4 px-10 rounded-lg transition-all transform hover:scale-105">
+        <Button className="bg-rocktown-purple hover:bg-rocktown-purple-light text-white text-xl font-bold py-4 px-10 rounded-lg transition-all transform hover:scale-105 h-auto">
           CONTACTAR
-        </button>
+        </Button>
       </div>
     </section>
   );

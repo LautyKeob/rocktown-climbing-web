@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Button } from './ui/button';
 
 const HeroSection = () => {
   return (
@@ -16,9 +17,9 @@ const HeroSection = () => {
         </p>
         
         <div className="mt-10">
-          <button className="bg-rocktown-purple hover:bg-opacity-80 text-white text-xl font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105">
+          <Button className="bg-rocktown-purple hover:bg-rocktown-purple-light text-white text-xl font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 h-auto">
             Contáctanos
-          </button>
+          </Button>
           <p className="mt-4 text-white/80">
             y empieza a escalar con nosotros.
           </p>
