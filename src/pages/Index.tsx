@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import RocktownHeader from '../components/RocktownHeader';
+import HeroSection from '../components/HeroSection';
+import ImageCarousel from '../components/ImageCarousel';
+import LocationSection from '../components/LocationSection';
+import FeaturesSection from '../components/FeaturesSection';
+import ContactSection from '../components/ContactSection';
+import RocktownFooter from '../components/RocktownFooter';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <RocktownHeader />
+      <main>
+        <HeroSection />
+        <ImageCarousel />
+        <LocationSection />
+        <FeaturesSection />
+        <ContactSection />
+      </main>
+      <RocktownFooter />
     </div>
   );
 };

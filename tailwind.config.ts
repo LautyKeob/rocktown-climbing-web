@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				rocktown: {
+					'purple': '#1A1F2C',
+					'dark-gray': '#221F26',
+					'black': '#000000e6',
+					'light-gray': '#f5f5f5',
+					'medium-gray': '#333333',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
