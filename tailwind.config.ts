@@ -21,6 +21,8 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Poppins', 'sans-serif'],
+				title: ['Bebas Neue', 'sans-serif'],
+				body: ['Roboto Condensed', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -67,6 +69,22 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				rocktown: {
+					// Colores base inspirados en la roca
+					'carbon': '#36454F',      // Gris Carbón
+					'dark-brown': '#4F4A45',  // Marrón Topo Oscuro
+					
+					// Colores de acento
+					'burnt-orange': '#BF5700', // Naranja Quemado
+					'oxide-red': '#B03A2E',    // Rojo Óxido
+					
+					// Texto y elementos clave
+					'off-white': '#F5F5DC',    // Blanco Roto
+					
+					// Toques atrevidos (presas de color)
+					'electric-blue': '#00FFFF', // Azul Eléctrico/Cian
+					'neon-yellow': '#CCFF00',   // Amarillo Neón
+					
+					// Mantenemos algunos colores anteriores para compatibilidad
 					'purple': '#1A1F2C',
 					'dark-gray': '#221F26',
 					'black': '#000000e6',
